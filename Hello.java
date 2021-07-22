@@ -15,7 +15,13 @@ public class Hello {
 
     public static void main(String[] args) {
         // int a = alt(3, 4);
-        int b = MultiplicarDosNumeros(3, 4);
-        System.out.println("I love Programming! " + " " + b);
+        float b = MultiplicarDosNumeros(3, 4);
+        // b /= 10;
+        b++; // b += 1; b = b + 1;
+        ++b;
+        double a = 11.234;
+        int promoverA = (int)a;
+        boolean esImpar = 15.0 >= b && b >= 13.0;
+        System.out.println("I love Programming! " + b + " " + esImpar);
     }
 }
