@@ -1,4 +1,4 @@
-package semana2.herencia;
+package semana2.herencia.v1;
 
 public class Tripulante extends Persona {
 
