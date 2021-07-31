@@ -1,4 +1,4 @@
-package cadenas;
+package semana1.cadenas;
 
 import java.util.Scanner;
 

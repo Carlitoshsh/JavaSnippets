@@ -1,6 +1,6 @@
-package clasesDos;
+package semana2.clasesDos;
 
-import clases.Perro;
+import semana2.clases.Perro;
 
 public class ProgramaPrincipal {
     public static void main(String[] args) {

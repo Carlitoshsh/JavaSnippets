@@ -1,4 +1,4 @@
-package clases;
+package semana2.clases;
 
 public class ProgramaPrincipal {
     public static void main(String[] args) {

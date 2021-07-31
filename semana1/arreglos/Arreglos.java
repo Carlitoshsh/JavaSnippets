@@ -1,4 +1,4 @@
-package arreglos;
+package semana1.arreglos;
 
 import java.util.Scanner;
 

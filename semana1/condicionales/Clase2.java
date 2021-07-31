@@ -1,4 +1,4 @@
-package condicionales;
+package semana1.condicionales;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

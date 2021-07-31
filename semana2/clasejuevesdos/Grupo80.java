@@ -1,4 +1,4 @@
-package clasejuevesdos;
+package semana2.clasejuevesdos;
 
 public class Grupo80 {
 

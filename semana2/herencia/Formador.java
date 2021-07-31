@@ -1,4 +1,4 @@
-package herencia;
+package semana2.herencia;
 
 public class Formador extends Persona {
     public int aniosExperiencia;

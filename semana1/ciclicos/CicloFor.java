@@ -1,4 +1,4 @@
-package ciclicos;
+package semana1.ciclicos;
 
 import java.util.Scanner;
 
