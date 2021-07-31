@@ -11,7 +11,6 @@ public class Empleado extends Persona {
     @Override
     public void Saludar() {
         System.out.println("Hola estudiantes!");
-        
     }
 
     // No se puede crear metodo Despertar
