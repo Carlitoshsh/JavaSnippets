@@ -7,6 +7,7 @@ public class CajaGenerico<T> implements ICaja<T> {
         this.object = object;
     }
 
+    @Override
     public String decorar() {
         int tamanio_numero = this.object.toString().length();
         String barra = "";
