@@ -66,7 +66,7 @@ public class Lista {
         vector.set(2, 12.23);
         System.out.println(vector);
     }
-    
+
     public static void main(String[] args) {
         ejemploLinkedList();
         System.out.println("\n---------------\n");
