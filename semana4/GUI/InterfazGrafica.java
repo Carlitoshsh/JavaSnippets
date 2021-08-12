@@ -9,16 +9,12 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
 public class InterfazGrafica {
 
     public static void mostrarVentana() {
         JFrame jFrame = new JFrame("Mi ventana");
-        jFrame.setVisible(true);
         jFrame.setSize(450, 450);
         // Centrar ventana
         // Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -29,7 +25,7 @@ public class InterfazGrafica {
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         // Creo un nuevo panel y lo agrego al frame
-        JPanel jpanel = new JPanel(new GridLayout(3, 3));
+        JPanel jpanel = new JPanel(new GridLayout(2, 2));
         jpanel.setBackground(new Color(178, 236, 255));
         JPanel jpanel2 = new JPanel();
         jpanel2.setBackground(Color.LIGHT_GRAY);
@@ -60,6 +56,7 @@ public class InterfazGrafica {
         JTextArea jTextArea = new JTextArea("Hola");
         jpanel3.add(jlabel3);
         jpanel3.add(jTextArea);
+        jFrame.setVisible(true);
     }
 
     public static void main(String[] args) {
